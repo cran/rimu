@@ -1,0 +1,94 @@
+import(stats,graphics,utils, ggplot2)
+export( "%has%", "%hasonly%","%hasany%","%hasall%", as.mr,  as.ms, mean0, mr_flatten, mr_count, 
+mr_diff, mr_infreq, mr_inorder, mr_inseq, mr_intersect, mr_na, 
+mr_reorder, mr_union, ms_infreq, ms_inorder, ms_inscore, ms_inseq, mr_recode,
+ms_na, ms_reorder, ms_recode, ms_flatten, mr_lump, mr_drop, ms_drop, mtable,
+mr_stack, ms_stack, as.vmr, new_vmr)
+
+S3method("[",mr)
+S3method("[",ms)
+S3method(as.character,mr)
+S3method(as.character,ms)
+S3method(as.data.frame,mr)
+S3method(as.data.frame,ms)
+S3method(as.logical,mr)
+S3method(as.logical,ms)
+S3method(as.matrix,mr)
+
+S3method(as.mr,data.frame)
+S3method(as.mr,default)
+S3method(as.mr,factor)
+S3method(as.mr,list)
+S3method(as.mr,ms)
+S3method(as.mr,mr)
+S3method(as.mr,logical)
+S3method(as.mr, character)
+
+
+S3method(as.ms,data.frame)
+S3method(as.ms,default)
+S3method(as.ms,ms)
+S3method(as.ms,mr)
+S3method(as.ms,list)
+S3method(as.ms,matrix)
+
+S3method(as.numeric,ms)
+
+S3method(image,mr)
+S3method(image,ms)
+S3method(plot,mr)
+
+
+S3method(levels,mr)
+S3method(levels,ms)
+S3method("levels<-",mr)
+S3method("levels<-",ms)
+
+S3method(length,mr)
+S3method(length,ms)
+
+S3method(print,mr)
+S3method(print,ms)
+S3method(format, mr)
+S3method(format, ms)
+
+S3method(stack1,mr)
+S3method(stack1,ms)
+S3method(stack1, vmr)
+
+S3method(vctrs::vec_ptype_full, vmr)
+S3method(vctrs::vec_ptype_abbr, vmr)
+S3method(pillar::pillar_shaft, vmr)
+S3method(vctrs::obj_print_data, vmr)
+
+S3method(format, vmr)
+S3method(as.vmr, mr)
+S3method(as.vmr, default)
+S3method(format, pillar_shaft_vmr)
+S3method(levels, vmr)
+
+S3method(mr_count,default)
+S3method(mr_union, default)
+S3method(mr_diff, default)
+S3method(mr_intersect, default)
+S3method(mr_reorder, default)
+S3method(mr_inseq,default)
+S3method(mr_inorder, default)
+S3method(mr_infreq, default)
+S3method(mr_recode, default)
+S3method(mr_lump, default)
+S3method(mr_drop,default)
+
+
+S3method(mr_count,vmr)
+S3method(mr_union, vmr)
+S3method(mr_diff, vmr)
+S3method(mr_intersect, vmr)
+S3method(mr_reorder, vmr)
+S3method(mr_inseq,vmr)
+S3method(mr_inorder, vmr)
+S3method(mr_infreq, vmr)
+S3method(mr_recode, vmr)
+S3method(mr_lump, vmr)
+S3method(mr_drop,vmr)
+
