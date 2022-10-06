@@ -1,6 +1,6 @@
 Package: rimu
 Title: Responses in Multiplex
-Version: 0.5
+Version: 0.6
 Authors@R: c(person(given = "Thomas",
            family = "Lumley",
            role = c("aut", "cre"),
@@ -17,8 +17,8 @@ Encoding: UTF-8
 License: GPL-3
 Maintainer: Thomas Lumley <t.lumley@auckland.ac.nz>
 NeedsCompilation: no
-Packaged: 2022-08-14 02:27:03 UTC; tlum005
+Packaged: 2022-10-05 23:52:20 UTC; tlum005
 Author: Thomas Lumley [aut, cre],
   Annie Cohen [ctb]
 Repository: CRAN
-Date/Publication: 2022-08-16 09:30:02 UTC
+Date/Publication: 2022-10-06 04:50:02 UTC
